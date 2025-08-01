@@ -8,6 +8,15 @@ Template: twentytwentyfour
 Version: 1.0.0
 */
 
-body {
-    background-color:antiquewhite
+.has-large-font-size {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    
+    a {
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration:underline;
+    }
 }
