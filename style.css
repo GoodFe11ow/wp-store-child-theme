@@ -8,15 +8,20 @@ Template: twentytwentyfour
 Version: 1.0.0
 */
 
-.has-large-font-size {
+.page-id-138 .has-large-font-size {
     display: flex;
     justify-content: center;
-    gap: 10em;
+    gap: 7rem;
     
     a {
         text-decoration: none;
+        border: 1px solid grey;
+        border-radius: 10px;
+        width: 200px;
+        transition: border 500ms, box-shadow 500ms;
     }
     a:hover{
-        text-decoration:underline;
+        border: 1px solid rgb(58, 58, 58);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
